@@ -1,0 +1,87 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginItem {
+    position: relative;
+    display: inline-block;
+    margin: 30px 10px;
+}
+
+.swing {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+    font-family: "Open Sans", sans;
+    font-weight: 400;
+    color: rgb(5, 55, 66);
+    background: #efefef;
+    border: 0;
+    border-radius: 3px;
+    outline: 0;
+    text-indent: 90px;
+    transition: all 0.3s ease-in-out;
+}
+
+.swing::-webkit-input-placeholder {
+    color: #efefef;
+    text-indent: 0;
+    font-weight: 300;
+}
+
+.swing+label {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(19, 74, 70, .4);
+    background: rgb(5, 55, 66);
+    color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    min-width: 100px;
+    /* set độ rộng tối thiểu cho label */
+}
+
+.swing+label:before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-weight: 600;
+    width: 100%;
+    /* label fill hết container */
+}
+
+.swing::-webkit-input-placeholder {
+    color: #efefef;
+    text-indent: 0;
+    font-weight: 300;
+}
+
+.swing:-moz-placeholder {
+    color: #efefef;
+    text-indent: 0;
+    font-weight: 300;
+}
+
+.swing::-moz-placeholder {
+    color: #efefef;
+    text-indent: 0;
+    font-weight: 300;
+}
+
+.swing:-ms-input-placeholder {
+    color: #efefef;
+    text-indent: 0;
+    font-weight: 300;
+}
+
+
+.btnSignin:hover {
+    background-color: rgb(12, 69, 82);
+}

@@ -1,0 +1,23 @@
+.order__date {
+    font-weight: 600;
+}
+
+.order__date span {
+    padding: 5px 10px;
+    background: #fde4e4;
+    color: #df2020;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.cart__img {
+    width: 100px;
+  }
+  
+  .cart__img img {
+    width: 100%;
+  }
+  .profile__detail td {
+    height: 50px;
+  vertical-align:middle;
+  }
+
